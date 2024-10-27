@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#btn-set {
+	width: 90%;
+	text-align: right;
+	margin-bottom: 20px;
+}
+#btn-set button {
+	margin-left: 10px;
+}
+.contents {
+	width:90%;
+	margin: 20px auto;
+	padding:20px;
+}
+.content {
+	margin-bottom: 40px;
+}
+.genre {
+	text-align: left;
+}
+.item {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item button {
+	border:none;
+	width: fit-content;
+	border-bottom: 1px solid black;
+	margin-left: 20px;
+	background-color: #FFE4B5;
+}
+.item button:focus {
+	background-color: #D2B48C;
+}

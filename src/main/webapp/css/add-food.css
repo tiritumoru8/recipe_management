@@ -1,0 +1,28 @@
+@charset "UTF-8";
+#content {
+	margin:auto;
+	margin-bottom: 20px;
+	text-align: left;
+	width: fit-content;
+}
+#content form input {
+	margin-bottom:20px;
+}
+#select {
+	margin-bottom: 20px;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: #333;
+	font-size: 16px;
+	padding: 0 10px;
+	height: 40px;
+	width: 100%;
+	position: relative;
+	background: white;
+}
+button {
+	margin-bottom:40px;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#btn-set {
+	width: 90%;
+	text-align: right;
+	margin-bottom: 20px;
+}
+.content {
+	width:90%;
+	margin: 20px auto;
+	padding:20px;
+}
+.content h2 {
+	text-align: left;
+}
+.items {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item {
+	width: 200px;
+	height: 100px;
+	background-color: white;
+	border:2px solid black;
+	margin-right: 20px;
+	position: relative;
+}
+.item p {
+	width: 100%;
+	position: absolute;
+	margin:0 auto;
+	top:10px;
+}
+.item button {
+	width: 100px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin:0 auto;
+	bottom: 10px;
+}

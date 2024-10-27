@@ -1,0 +1,25 @@
+@charset "UTF-8";
+#contents {
+	width: 90%;
+}
+#btn {
+	width: 100%;
+	text-align: end;
+}
+#child {
+	width: 80%;
+	text-align: left;
+}
+#child h2 {
+	width: fit-content;
+	background-color: #F4A460;
+	border: 2px solid #D2691E;
+	border-radius: 2em;
+	margin: 40px 0 15px 0;
+	padding: 5px;
+}
+#child p {
+	width: fit-content;
+	font-size: 20px;
+	margin-left: 20px;
+}

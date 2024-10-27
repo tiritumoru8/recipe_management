@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.content {
+	width:90%;
+	margin: 20px auto;
+	padding:20px;
+}
+.content h2 {
+	text-align: left;
+}
+.recipelist {
+	display: flex;
+	flex-wrap: wrap;
+}
+.recipelist button{
+	border:none;
+	width: fit-content;
+	border-bottom: 1px solid black;
+	margin-left: 20px;
+	background-color: #FFE4B5;
+}
+.recipelist button:focus {
+	background-color: #D2B48C;
+}

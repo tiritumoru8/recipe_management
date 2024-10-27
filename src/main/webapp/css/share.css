@@ -1,0 +1,201 @@
+@charset "UTF-8";
+body {
+	background-color:#FFE4B5;
+	font-family:ヒラギノ明朝 ProN W6;
+}
+header {
+	background-color: #FF7F50;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+#icon {
+	width: 32px;
+	height: 32px;
+	background-image: url(../image/icon_cooking.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	color:white;
+	position: absolute;
+	top:10px;
+	left: 10px;
+}
+header div p {
+	font-size: 8px;
+}
+.header_nav {
+	display: none;
+}
+.header_hamburger {
+	display: none;
+}
+
+h1 {
+	font-size: 28px;
+	margin-bottom: 2em;
+}
+h2 {
+	font-size: 20px;
+	margin-bottom: 2em;
+}
+p {
+	font-size: 18px;
+}
+input {
+	width: 400px;
+	font-size: 18px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 2px solid gray;
+	margin-bottom: 2em;
+}
+input:focus {
+	outline: 0;
+	border: 2px solid lightgray;
+}
+a {
+	color:#A52A2A;
+}
+button {
+	min-width: 8em;
+	padding:5px;
+	font-size: 18px;
+}
+.container {
+	display: flex;
+	padding-top:100px;
+}
+aside {
+	width: 20%;
+	padding: 0 20px;
+	text-align: center;
+}
+article {
+	width: 80%;
+	padding: 0 20px;
+	text-align: center;
+}
+li {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.error {
+	color: red;
+	font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+	aside {
+		display: none;
+	}
+	article {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.menu-nav {
+		display: none;
+	}
+	input {
+		width: 200px;
+	}
+	.header_inner {
+	  padding: 0 20px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	  height: inherit;
+	  position: relative;
+	}
+	.header_title {
+		width: 80px;
+	}
+	.header_nav {
+		display: block;
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100vh;
+		transform: translateX(100%);
+		background-color: #FDF5E6;
+		transition: ease .4s;
+	}
+	.nav-items {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 0;
+	}
+	.nav-items_item a {
+		color: black;
+		width: 100%;
+		display: block;
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 24px;
+	}
+	.nav-items_item:last-child a {
+		margin-bottom: 0;
+	}
+	.header_hamburger {
+		display: block;
+		width: 48px;
+		height: 48px;
+		position: absolute;
+		top:15px;
+		right: 10px;
+	}
+	.hamburger {
+		background-color: transparent;
+		border-color: transparent;
+		z-index: 9999;
+	}
+	.hamburger span {
+		width: 100%;
+		height: 1px;
+		background-color: #000;
+		position: relative;
+		transition: ease .4s;
+		display: block;
+	}
+
+	.hamburger span:nth-child(1) {
+		top: 0;
+	}
+
+	.hamburger span:nth-child(2) {
+		margin: 8px 0;
+	}
+
+	.hamburger span:nth-child(3) {
+		top: 0;
+	}
+
+
+/* ハンバーガーメニュークリック後のスタイル */
+	.header_nav.active {
+		transform: translateX(0);
+	}
+	
+	.hamburger.active span:nth-child(1) {
+		top: 5px;
+		transform: rotate(45deg);
+	}
+	
+	.hamburger.active span:nth-child(2) {
+		opacity: 0;
+	}
+	
+	.hamburger.active span:nth-child(3) {
+		top: -13px;
+		transform: rotate(-45deg);
+	} 
+}

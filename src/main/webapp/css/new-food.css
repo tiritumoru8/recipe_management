@@ -1,0 +1,30 @@
+@charset "UTF-8";
+#content {
+	width: 60%;
+	margin:0 auto;
+}
+#btn-set {
+	width: 80%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#newFood input {
+	margin-bottom: 20px;
+	width: 100%;
+}
+#newFood select {
+	margin-bottom: 20px;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: #333;
+	font-size: 16px;
+	padding: 0 10px;
+	height: 40px;
+	width: 100%;
+	position: relative;
+	background: white;
+}

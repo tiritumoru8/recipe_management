@@ -1,0 +1,26 @@
+@charset "UTF-8";
+#items {
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom:40px;
+}
+.item {
+	border:1px solid black;
+	height:fit-content;
+	text-align: center;
+	margin-left:20px;
+	margin-bottom:20px;
+	background-color:#DEB887;padding:10px;
+}
+#add-btn {
+	position: fixed;
+  	bottom: 60px; 
+  	right: 60px;
+}
+img {
+	width:60px;
+	height:60px;
+}
+p {
+	font-size: 18px;
+}

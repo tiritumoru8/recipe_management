@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.contents {
+	margin: auto;
+}
+
+@media (max-width: 600px) {
+	.btnset {
+		width: 200px;
+		height: auto;
+		text-align: center;
+	}
+	.btnset button {
+		margin-bottom: 20px;
+	}
+}

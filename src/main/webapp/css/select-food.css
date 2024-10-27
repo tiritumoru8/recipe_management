@@ -1,0 +1,46 @@
+@charset "UTF-8";
+#contents {
+	width: 90%;
+	margin:100px auto;
+}
+#contents h1 {
+	text-align: center;
+}
+#content {
+	width: 90%;
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+.item {
+	border:1px solid black;
+	width: 200px;
+	height:fit-content;
+	text-align: center;
+	margin-left:20px;
+	background-color:#DEB887;padding:10px;
+	margin-bottom: 20px;
+}
+.item input {
+	width: 150px;
+}
+img {
+	width: 60px;
+	height: 60px;
+}
+#setbtn {
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin:0 auto;
+	margin-bottom: 40px;
+}
+#setbtn button{
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+.guide {
+	text-align: center;
+}
